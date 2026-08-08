@@ -64,8 +64,7 @@ print('Retrieved knowledge:')
 for chunk, similarity in retrieved_knowledge:
   print(f' - (similarity: {similarity:.2f}) {chunk}')
 
-instruction_prompt = f'''You are a helpful chatbot.
-Use only the following pieces of context to answer the question. Don't make up any new information:
+instruction_prompt = f'''You are a helpful assistant. Answer the following question based ONLY on the provided context. If the answer cannot be found in the context, write "I could not find an answer in the provided documents." Do not use any of your own knowledge:
 {'\n'.join([f' - {chunk}' for chunk, similarity in retrieved_knowledge])}
 '''
 

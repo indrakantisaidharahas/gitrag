@@ -1,0 +1,2371 @@
+[
+  {
+    "text": "On average, cats spend 2/3 of every day sleeping. That means a nine-year-old cat has been awake for only three years of its life.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "sleeping",
+        "object": "every day"
+      },
+      {
+        "subject": "a cat",
+        "relation": "has been awake",
+        "object": "three years of its life"
+      }
+    ]
+  },
+  {
+    "text": "Unlike dogs, cats do not have a sweet tooth. Scientists believe this is due to a mutation in a key taste receptor.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "do not have a sweet tooth",
+        "object": "dogs"
+      },
+      {
+        "subject": "Scientists",
+        "relation": "believe",
+        "object": "mutation in a key taste receptor"
+      }
+    ]
+  },
+  {
+    "text": "When a cat chases its prey, it keeps its head level. Dogs and humans bob their heads up and down.",
+    "triplets": [
+      {
+        "subject": "cat",
+        "relation": "chasing",
+        "object": "prey"
+      },
+      {
+        "subject": "Dogs",
+        "relation": "bob their heads up and down",
+        "object": "heads"
+      }
+    ]
+  },
+  {
+    "text": "The technical term for a cat’s hairball is a “bezoar.”",
+    "triplets": [
+      {
+        "subject": "cat",
+        "relation": "hairball",
+        "object": "bezoar"
+      }
+    ]
+  },
+  {
+    "text": "A group of cats is called a “clowder.”",
+    "triplets": [
+      {
+        "subject": "a group of cats",
+        "relation": "is called a ",
+        "object": "clowder"
+      }
+    ]
+  },
+  {
+    "text": "Female cats tend to be right pawed, while male cats are more often left pawed. Interestingly, while 90% of humans are right handed, the remaining 10% of lefties also tend to be male.",
+    "triplets": [
+      {
+        "subject": "Female cat",
+        "relation": "tends to be",
+        "object": "right pawed"
+      },
+      {
+        "subject": "left-handed people",
+        "relation": "tend to be male",
+        "object": "10%"
+      }
+    ]
+  },
+  {
+    "text": "A cat can’t climb head first down a tree because every claw on a cat’s paw points the same way. To get down from a tree, a cat must back down.",
+    "triplets": [
+      {
+        "subject": "cat",
+        "relation": "can't",
+        "object": "climb head first down a tree"
+      },
+      {
+        "subject": "a cat",
+        "relation": "must",
+        "object": "back down"
+      }
+    ]
+  },
+  {
+    "text": "Cats make about 100 different sounds. Dogs make only about 10.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "make",
+        "object": "about 100 different sounds"
+      },
+      {
+        "subject": "Dogs",
+        "relation": "make",
+        "object": "about 10"
+      }
+    ]
+  },
+  {
+    "text": "A cat’s brain is biologically more similar to a human brain than it is to a dog’s. Both humans and cats have identical regions in their brains that are responsible for emotions.",
+    "triplets": [
+      {
+        "subject": "cat's brain",
+        "relation": "biologically more similar to",
+        "object": "human brain"
+      },
+      {
+        "subject": "Humans",
+        "relation": "have",
+        "object": "identical regions in their brains"
+      },
+      {
+        "subject": "Cats",
+        "relation": "have",
+        "object": "identical regions in their brains"
+      },
+      {
+        "subject": "Emotions",
+        "relation": "are",
+        "object": "responsible for"
+      }
+    ]
+  },
+  {
+    "text": "There are more than 500 million domestic cats in the world, with approximately 40 recognized breeds.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "are",
+        "object": "more than 500 million"
+      },
+      {
+        "subject": "Breeds",
+        "relation": "are",
+        "object": "recognized"
+      }
+    ]
+  },
+  {
+    "text": "While it is commonly thought that the ancient Egyptians were the first to domesticate cats, the oldest known pet cat was recently found in a 9,500-year-old grave on the Mediterranean island of Cyprus. This grave predates early Egyptian art depicting cats by 4,000 years or more.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "domesticated",
+        "object": "9,500 years ago"
+      },
+      {
+        "subject": "grave",
+        "relation": "predates",
+        "object": "early Egyptian art depicting cats by 4000 years or more"
+      }
+    ]
+  },
+  {
+    "text": "During the time of the Spanish Inquisition, Pope Innocent VIII condemned cats as evil and thousands of cats were burned. Unfortunately, the widespread killing of cats led to an explosion of the rat population, which exacerbated the effects of the Black Death.",
+    "triplets": [
+      {
+        "subject": "Pope Innocent VIII",
+        "relation": "condemned cats",
+        "object": "thousands of cats"
+      },
+      {
+        "subject": "widespread killing of cats",
+        "relation": "led to",
+        "object": "explosion of the rat population"
+      }
+    ]
+  },
+  {
+    "text": "During the Middle Ages, cats were associated with witchcraft, and on St. John’s Day, people all over Europe would stuff them into sacks and toss the cats into bonfires. On holy days, people celebrated by tossing cats from church towers.",
+    "triplets": [
+      {
+        "subject": "Middle Ages",
+        "relation": "associated with",
+        "object": "witchcraft"
+      },
+      {
+        "subject": "St.",
+        "relation": "of",
+        "object": "Saints"
+      },
+      {
+        "subject": "Bonfire",
+        "relation": "into",
+        "object": "cats"
+      },
+      {
+        "subject": "people",
+        "relation": "celebrated",
+        "object": "holy days"
+      },
+      {
+        "subject": "church towers",
+        "relation": "tossed",
+        "object": "cats"
+      }
+    ]
+  },
+  {
+    "text": "Cats are North America’s most popular pets: there are 73 million cats compared to 63 million dogs. Over 30% of households in North America own a cat.",
+    "triplets": [
+      {
+        "subject": "North America",
+        "relation": "owns a cat",
+        "object": "over 30%"
+      }
+    ]
+  },
+  {
+    "text": "The first cat in space was a French cat named Felicette (a.k.a. “Astrocat”) In 1963, France blasted the cat into outer space. Electrodes implanted in her brains sent neurological signals back to Earth. She survived the trip.",
+    "triplets": [
+      {
+        "subject": "cat",
+        "relation": "in space",
+        "object": "Felicette (French cat)"
+      },
+      {
+        "subject": "space",
+        "relation": "was",
+        "object": "first"
+      },
+      {
+        "subject": "France",
+        "relation": "blasted",
+        "object": "the cat into outer space"
+      },
+      {
+        "subject": "Neurological signals",
+        "relation": "sent",
+        "object": "electrodes"
+      },
+      {
+        "subject": "She",
+        "relation": "survived the trip",
+        "object": "trip"
+      }
+    ]
+  },
+  {
+    "text": "The group of words associated with cat ( catt, cath, chat, katze ) stem from the Latin catus , meaning domestic cat, as opposed to feles , or wild cat.",
+    "triplets": [
+      {
+        "subject": "cat",
+        "relation": "stem from",
+        "object": "Latin catus"
+      }
+    ]
+  },
+  {
+    "text": "The term “puss” is the root of the principal word for “cat” in the Romanian term pisica and the root of secondary words in Lithuanian ( puz ) and Low German puus . Some scholars suggest that “puss” could be imitative of the hissing sound used to get a cat’s attention. As a slang word for the female pudenda, it could be associated with the connotation of a cat being soft, warm, and fuzzy.",
+    "triplets": [
+      {
+        "subject": "puss",
+        "relation": "root of",
+        "object": "cat"
+      },
+      {
+        "subject": "puss",
+        "relation": "imitates",
+        "object": "hissing sound"
+      },
+      {
+        "subject": "female genitalia",
+        "relation": "as",
+        "object": "pudendal area"
+      }
+    ]
+  },
+  {
+    "text": "Approximately 40,000 people are bitten by cats in the U.S. annually.",
+    "triplets": [
+      {
+        "subject": "approximate number of cat bites per year",
+        "relation": "approximately",
+        "object": "40,000 people"
+      },
+      {
+        "subject": "Subject",
+        "relation": "Unknown",
+        "object": ""
+      },
+      {
+        "subject": "annually",
+        "relation": "of",
+        "object": "years"
+      }
+    ]
+  },
+  {
+    "text": "According to Hebrew legend, Noah prayed to God for help protecting all the food he stored on the ark from being eaten by rats. In reply, God made the lion sneeze, and out popped a cat.",
+    "triplets": [
+      {
+        "subject": "Noah",
+        "relation": "prayed to God",
+        "object": "help"
+      },
+      {
+        "subject": "God",
+        "relation": "made",
+        "object": "the lion sneeze"
+      },
+      {
+        "subject": "lion",
+        "relation": "sneezed",
+        "object": "a cat"
+      }
+    ]
+  },
+  {
+    "text": "A cat’s hearing is better than a dog’s. And a cat can hear high-frequency sounds up to two octaves higher than a human.",
+    "triplets": [
+      {
+        "subject": "cat",
+        "relation": "hearing",
+        "object": "better"
+      },
+      {
+        "subject": "dog",
+        "relation": "hearing",
+        "object": "worse"
+      },
+      {
+        "subject": "Cat",
+        "relation": "can hear",
+        "object": "high-frequency sounds up to 2 octaves higher than human"
+      }
+    ]
+  },
+  {
+    "text": "A cat can travel at a top speed of approximately 31 mph (49 km) over a short distance.",
+    "triplets": [
+      {
+        "subject": "cat",
+        "relation": "travel at",
+        "object": "approximately 31 mph (49 km)"
+      },
+      {
+        "subject": "distance",
+        "relation": "short",
+        "object": "over"
+      }
+    ]
+  },
+  {
+    "text": "A cat can jump up to five times its own height in a single bound.",
+    "triplets": [
+      {
+        "subject": "cat",
+        "relation": "can jump",
+        "object": "five times its own height"
+      }
+    ]
+  },
+  {
+    "text": "Some cats have survived falls of over 65 feet (20 meters), due largely to their “righting reflex.” The eyes and balance organs in the inner ear tell it where it is in space so the cat can land on its feet. Even cats without a tail have this ability.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "survived",
+        "object": "falls of over 65 feet (20 meters)"
+      },
+      {
+        "subject": "cats",
+        "relation": "righting reflex",
+        "object": "eyes and balance organs in the inner ear"
+      },
+      {
+        "subject": "falls of over 65 feet (20 meters)",
+        "relation": "due largely to",
+        "object": "space"
+      },
+      {
+        "subject": "Cats",
+        "relation": "have the ability to sleep for 12 to 16 hours a day",
+        "object": "even"
+      }
+    ]
+  },
+  {
+    "text": "A cat rubs against people not only to be affectionate but also to mark out its territory with scent glands around its face. The tail area and paws also carry the cat’s scent.",
+    "triplets": [
+      {
+        "subject": "cat",
+        "relation": "marks territory",
+        "object": "scent glands around its face"
+      },
+      {
+        "subject": "Cat's Tail Area",
+        "relation": "carries",
+        "object": "scent"
+      }
+    ]
+  },
+  {
+    "text": "Researchers are unsure exactly how a cat purrs. Most veterinarians believe that a cat purrs by vibrating vocal folds deep in the throat. To do this, a muscle in the larynx opens and closes the air passage about 25 times per second.",
+    "triplets": [
+      {
+        "subject": "Researchers",
+        "relation": "are unsure",
+        "object": "exactly how"
+      },
+      {
+        "subject": "Veterinarian",
+        "relation": "believes",
+        "object": "a cat purrs"
+      },
+      {
+        "subject": "Muscle",
+        "relation": "opens and closes",
+        "object": "air passage about 25 times per second"
+      }
+    ]
+  },
+  {
+    "text": "When a family cat died in ancient Egypt, family members would mourn by shaving off their eyebrows. They also held elaborate funerals during which they drank wine and beat their breasts. The cat was embalmed with a sculpted wooden mask and the tiny mummy was placed in the family tomb or in a pet cemetery with tiny mummies of mice.",
+    "triplets": [
+      {
+        "subject": "family",
+        "relation": "mourned",
+        "object": "by shaving off their eyebrows"
+      },
+      {
+        "subject": "funeral",
+        "relation": "held",
+        "object": "elaborate"
+      },
+      {
+        "subject": "cat",
+        "relation": "embalmed with",
+        "object": "sculpted wooden mask"
+      }
+    ]
+  },
+  {
+    "text": "In 1888, more than 300,000 mummified cats were found an Egyptian cemetery. They were stripped of their wrappings and carted off to be used by farmers in England and the U.S. for fertilizer.",
+    "triplets": [
+      {
+        "subject": "Egyptian Cemetery",
+        "relation": "contains",
+        "object": "more than 300,000 mummified cats"
+      },
+      {
+        "subject": "wrappings",
+        "relation": "were stripped of",
+        "object": "their"
+      },
+      {
+        "subject": "Subject",
+        "relation": "Unknown",
+        "object": ""
+      },
+      {
+        "subject": "fertilizer",
+        "relation": "for",
+        "object": "Cats sleep for 12 to 16 hours a day"
+      }
+    ]
+  },
+  {
+    "text": "Most cats give birth to a litter of between one and nine kittens. The largest known litter ever produced was 19 kittens, of which 15 survived.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "give birth to",
+        "object": "one to nine kittens"
+      },
+      {
+        "subject": "kittens",
+        "relation": "largest known litter",
+        "object": "19"
+      },
+      {
+        "subject": "kittens",
+        "relation": "survived",
+        "object": "15"
+      }
+    ]
+  },
+  {
+    "text": "Smuggling a cat out of ancient Egypt was punishable by death. Phoenician traders eventually succeeded in smuggling felines, which they sold to rich people in Athens and other important cities.",
+    "triplets": [
+      {
+        "subject": "Smuggling a cat out of ancient Egypt",
+        "relation": "was punishable by death",
+        "object": "cat"
+      },
+      {
+        "subject": "Phoenician traders",
+        "relation": "smuggled",
+        "object": "felines"
+      }
+    ]
+  },
+  {
+    "text": "The earliest ancestor of the modern cat lived about 30 million years ago. Scientists called it the Proailurus , which means “first cat” in Greek. The group of animals that pet cats belong to emerged around 12 million years ago.",
+    "triplets": [
+      {
+        "subject": "cat",
+        "relation": "ancestor",
+        "object": "earliest ancestor of the modern cat lived about 30 million years ago"
+      },
+      {
+        "subject": "Proailurus",
+        "relation": "the",
+        "object": "cat"
+      },
+      {
+        "subject": "group of animals",
+        "relation": "emerged around",
+        "object": "12 million years ago"
+      }
+    ]
+  },
+  {
+    "text": "The biggest wildcat today is the Siberian Tiger. It can be more than 12 feet (3.6 m) long (about the size of a small car) and weigh up to 700 pounds (317 kg).",
+    "triplets": [
+      {
+        "subject": "Siberian Tiger",
+        "relation": "biggest",
+        "object": "wildcat"
+      },
+      {
+        "subject": "Cats",
+        "relation": "can grow up to",
+        "object": "700 pounds"
+      }
+    ]
+  },
+  {
+    "text": "The smallest wildcat today is the Black-footed cat. The females are less than 20 inches (50 cm) long and can weigh as little as 2.5 lbs. (1.2 kg).",
+    "triplets": [
+      {
+        "subject": "Black-footed cat",
+        "relation": "smallest wildcat",
+        "object": "today"
+      },
+      {
+        "subject": "females",
+        "relation": "can weigh as little as",
+        "object": "2.5 lbs"
+      },
+      {
+        "subject": "1.2 kg",
+        "relation": "unit of mass",
+        "object": "kilogram"
+      }
+    ]
+  },
+  {
+    "text": "Many Egyptians worshipped the goddess Bast, who had a woman’s body and a cat’s head.",
+    "triplets": [
+      {
+        "subject": "Egyptians",
+        "relation": "worshipped",
+        "object": "Bast"
+      }
+    ]
+  },
+  {
+    "text": "Mohammed loved cats and reportedly his favorite cat, Muezza, was a tabby. Legend says that tabby cats have an “M” for Mohammed on top of their heads because Mohammad would often rest his hand on the cat’s head.",
+    "triplets": [
+      {
+        "subject": "Mohammed",
+        "relation": "loved",
+        "object": "cats"
+      },
+      {
+        "subject": "Tabby Cats",
+        "relation": "have",
+        "object": "an 'M' for Mohammed"
+      }
+    ]
+  },
+  {
+    "text": "While many parts of Europe and North America consider the black cat a sign of bad luck, in Britain and Australia, black cats are considered lucky.",
+    "triplets": [
+      {
+        "subject": "Black Cat",
+        "relation": "considered",
+        "object": "lucky"
+      },
+      {
+        "subject": "Britain",
+        "relation": "and",
+        "object": "Australia"
+      }
+    ]
+  },
+  {
+    "text": "The most popular pedigreed cat is the Persian cat, followed by the Main Coon cat and the Siamese cat.",
+    "triplets": [
+      {
+        "subject": "Siamese cat",
+        "relation": "followed by",
+        "object": "Cat"
+      }
+    ]
+  },
+  {
+    "text": "The smallest pedigreed cat is a Singapura, which can weigh just 4 lbs. (1.8 kg), or about five large cans of cat food. The largest pedigreed cats are Maine Coon cats, which can weigh 25 lbs. (11.3 kg), or nearly twice as much as an average cat weighs.",
+    "triplets": [
+      {
+        "subject": "Singapura",
+        "relation": "smallest pedigree",
+        "object": "4 lbs"
+      },
+      {
+        "subject": "cat food",
+        "relation": "or",
+        "object": "(1.8 kg) or (5 large cans)"
+      },
+      {
+        "subject": "Maine Coon cat",
+        "relation": "largest",
+        "object": "25 lbs"
+      },
+      {
+        "subject": "an average cat",
+        "relation": "weighs",
+        "object": "11.3 kg"
+      }
+    ]
+  },
+  {
+    "text": "Some Siamese cats appear cross-eyed because the nerves from the left side of the brain go to mostly the right eye and the nerves from the right side of the brain go mostly to the left eye. This causes some double vision, which the cat tries to correct by “crossing” its eyes.",
+    "triplets": [
+      {
+        "subject": "Siamese",
+        "relation": "appears cross-eyed",
+        "object": "because"
+      },
+      {
+        "subject": "cat",
+        "relation": "tries to correct",
+        "object": "double vision"
+      }
+    ]
+  },
+  {
+    "text": "Researchers believe the word “tabby” comes from Attabiyah, a neighborhood in Baghdad, Iraq. Tabbies got their name because their striped coats resembled the famous wavy patterns in the silk produced in this city.",
+    "triplets": [
+      {
+        "subject": "word",
+        "relation": "comes from",
+        "object": "Attabiyah, Baghdad, Iraq"
+      },
+      {
+        "subject": "Tabby",
+        "relation": "got their name from",
+        "object": "the city's silk production"
+      }
+    ]
+  },
+  {
+    "text": "Cats hate the water because their fur does not insulate well when it’s wet. The Turkish Van, however, is one cat that likes swimming. Bred in central Asia, its coat has a unique texture that makes it water resistant.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "hate",
+        "object": "water"
+      },
+      {
+        "subject": "Turkish Van",
+        "relation": "likes",
+        "object": "swimming"
+      },
+      {
+        "subject": "Cats",
+        "relation": "bred in",
+        "object": "central Asia"
+      }
+    ]
+  },
+  {
+    "text": "The Egyptian Mau is probably the oldest breed of cat. In fact, the breed is so ancient that its name is the Egyptian word for “cat.”",
+    "triplets": [
+      {
+        "subject": "Egyptian Mau",
+        "relation": "is",
+        "object": "probably the oldest breed of cat"
+      },
+      {
+        "subject": "Egyptian cat",
+        "relation": "is a",
+        "object": "breed of cat"
+      }
+    ]
+  },
+  {
+    "text": "The costliest cat ever is named Little Nicky, who cost his owner $50,000. He is a clone of an older cat.",
+    "triplets": [
+      {
+        "subject": "Little Nicky",
+        "relation": "costly",
+        "object": "$50,000"
+      },
+      {
+        "subject": "He",
+        "relation": "is a clone of",
+        "object": "an older cat"
+      }
+    ]
+  },
+  {
+    "text": "A cat usually has about 12 whiskers on each side of its face.",
+    "triplets": [
+      {
+        "subject": "cat",
+        "relation": "has",
+        "object": "about 12 whiskers on each side of its face"
+      }
+    ]
+  },
+  {
+    "text": "A cat’s eyesight is both better and worse than humans. It is better because cats can see in much dimmer light and they have a wider peripheral view. It’s worse because they don’t see color as well as humans do. Scientists believe grass appears red to cats.",
+    "triplets": [
+      {
+        "subject": "cat's eyesight",
+        "relation": "better or worse than humans",
+        "object": "eyesight"
+      },
+      {
+        "subject": "Cats",
+        "relation": "can see in",
+        "object": "much dimmer light"
+      },
+      {
+        "subject": "Humans",
+        "relation": "see color",
+        "object": "worse"
+      },
+      {
+        "subject": "Grass",
+        "relation": "appears",
+        "object": "red to cats"
+      }
+    ]
+  },
+  {
+    "text": "Spanish-Jewish folklore recounts that Adam’s first wife, Lilith, became a black vampire cat, sucking the blood from sleeping babies. This may be the root of the superstition that a cat will smother a sleeping baby or suck out the child’s breath.",
+    "triplets": [
+      {
+        "subject": "Adam",
+        "relation": "became",
+        "object": "a black vampire cat"
+      },
+      {
+        "subject": "Lilith",
+        "relation": "sucked",
+        "object": "blood from sleeping babies"
+      },
+      {
+        "subject": "cat",
+        "relation": "smothering a sleeping baby",
+        "object": "a sleeping baby"
+      }
+    ]
+  },
+  {
+    "text": "Perhaps the most famous comic cat is the Cheshire Cat in Lewis Carroll’s Alice in Wonderland. With the ability to disappear, this mysterious character embodies the magic and sorcery historically associated with cats.",
+    "triplets": [
+      {
+        "subject": "Cheshire Cat",
+        "relation": "is a character",
+        "object": "Lewis Carroll's Alice in Wonderland"
+      },
+      {
+        "subject": "the mysterious character",
+        "relation": "embodies",
+        "object": "magic and sorcery historically associated with cats"
+      }
+    ]
+  },
+  {
+    "text": "In the original Italian version of Cinderella, the benevolent fairy godmother figure was a cat.",
+    "triplets": [
+      {
+        "subject": "Benevolent Fairy Godmother Figure",
+        "relation": "was a cat",
+        "object": "Italian version of Cinderella"
+      }
+    ]
+  },
+  {
+    "text": "In Holland’s embassy in Moscow, Russia, the staff noticed that the two Siamese cats kept meowing and clawing at the walls of the building. Their owners finally investigated, thinking they would find mice. Instead, they discovered microphones hidden by Russian spies. The cats heard the microphones when they turned on.",
+    "triplets": [
+      {
+        "subject": "Holland's embassy in Moscow",
+        "relation": "staff",
+        "object": "two Siamese cats"
+      },
+      {
+        "subject": "owners",
+        "relation": "investigated",
+        "object": "they"
+      },
+      {
+        "subject": "microphones",
+        "relation": "hidden",
+        "object": "by Russian spies"
+      },
+      {
+        "subject": "Cats",
+        "relation": "heard",
+        "object": "microphones"
+      }
+    ]
+  },
+  {
+    "text": "The little tufts of hair in a cat’s ear that help keep out dirt direct sounds into the ear, and insulate the ears are called “ear furnishings.”",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "have",
+        "object": "little tufts of hair"
+      }
+    ]
+  },
+  {
+    "text": "The ability of a cat to find its way home is called “psi-traveling.” Experts think cats either use the angle of the sunlight to find their way or that cats have magnetized cells in their brains that act as compasses.",
+    "triplets": [
+      {
+        "subject": "cats",
+        "relation": "psi-traveling",
+        "object": "angle of sunlight"
+      }
+    ]
+  },
+  {
+    "text": "Isaac Newton invented the cat flap. Newton was experimenting in a pitch-black room. Spithead, one of his cats, kept opening the door and wrecking his experiment. The cat flap kept both Newton and Spithead happy.",
+    "triplets": [
+      {
+        "subject": "Isaac Newton",
+        "relation": "invented the cat flap",
+        "object": "cat flap"
+      },
+      {
+        "subject": "Newton",
+        "relation": "experimenting",
+        "object": "pitch-black room"
+      },
+      {
+        "subject": "Spithead",
+        "relation": "kept",
+        "object": "opening the door"
+      },
+      {
+        "subject": "cat",
+        "relation": "wrecked",
+        "object": "experiment"
+      },
+      {
+        "subject": "cat flap",
+        "relation": "kept",
+        "object": "both Newton and Spithead happy"
+      }
+    ]
+  },
+  {
+    "text": "The world’s rarest coffee, Kopi Luwak, comes from Indonesia where a wildcat known as the luwak lives. The cat eats coffee berries and the coffee beans inside pass through the stomach. The beans are harvested from the cat’s dung heaps and then cleaned and roasted. Kopi Luwak sells for about $500 for a 450 g (1 lb) bag.",
+    "triplets": [
+      {
+        "subject": "Kopi Luwak",
+        "relation": "comes from",
+        "object": "Indonesia"
+      },
+      {
+        "subject": "cat",
+        "relation": "eats",
+        "object": "coffee berries"
+      },
+      {
+        "subject": "beans",
+        "relation": "harvested from",
+        "object": "cat's dung heaps"
+      },
+      {
+        "subject": "Kopi Luwak",
+        "relation": "sells for",
+        "object": "$500 for a 450 g (1 lb) bag"
+      }
+    ]
+  },
+  {
+    "text": "A cat’s jaw can’t move sideways, so a cat can’t chew large chunks of food.",
+    "triplets": [
+      {
+        "subject": "cat",
+        "relation": "can't chew large chunks of food",
+        "object": "sideways"
+      }
+    ]
+  },
+  {
+    "text": "A cat almost never meows at another cat, mostly just humans. Cats typically will spit, purr, and hiss at other cats.",
+    "triplets": [
+      {
+        "subject": "cats",
+        "relation": "almost never meow",
+        "object": "at another cat"
+      },
+      {
+        "subject": "Cats",
+        "relation": "spit",
+        "object": "at other cats"
+      }
+    ]
+  },
+  {
+    "text": "A cat’s back is extremely flexible because it has up to 53 loosely fitting vertebrae. Humans only have 34.",
+    "triplets": [
+      {
+        "subject": "cat's back",
+        "relation": "is extremely flexible",
+        "object": "up to 53 loosely fitting vertebrae"
+      },
+      {
+        "subject": "Humans",
+        "relation": "have",
+        "object": "34"
+      }
+    ]
+  },
+  {
+    "text": "Approximately 1/3 of cat owners think their pets are able to read their minds.",
+    "triplets": [
+      {
+        "subject": "cat owners",
+        "relation": "think",
+        "object": "approximately 1/3"
+      }
+    ]
+  },
+  {
+    "text": "All cats have claws, and all except the cheetah sheath them when at rest.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "have",
+        "object": "claws"
+      }
+    ]
+  },
+  {
+    "text": "Two members of the cat family are distinct from all others: the clouded leopard and the cheetah. The clouded leopard does not roar like other big cats, nor does it groom or rest like small cats. The cheetah is unique because it is a running cat; all others are leaping cats. They are leaping cats because they slowly stalk their prey and then leap on it.",
+    "triplets": [
+      {
+        "subject": "clouded leopards",
+        "relation": "are",
+        "object": "distinct from all others"
+      },
+      {
+        "subject": "Clouded leopards",
+        "relation": "do not",
+        "object": "other big cats"
+      },
+      {
+        "subject": "Cheetah",
+        "relation": "is a running cat",
+        "object": "cat"
+      },
+      {
+        "subject": "Cats",
+        "relation": "leap",
+        "object": "they slowly stalk their prey and then leap on it."
+      }
+    ]
+  },
+  {
+    "text": "A cat lover is called an Ailurophilia (Greek: cat+lover).",
+    "triplets": [
+      {
+        "subject": "Cat Lover",
+        "relation": "is called",
+        "object": "Ailurophilia"
+      }
+    ]
+  },
+  {
+    "text": "In Japan, cats are thought to have the power to turn into super spirits when they die. This may be because according to the Buddhist religion, the body of the cat is the temporary resting place of very spiritual people.",
+    "triplets": [
+      {
+        "subject": "Japan",
+        "relation": "has a belief in",
+        "object": "cats turning into super spirits when they die"
+      },
+      {
+        "subject": "Buddhist religion",
+        "relation": "relates to",
+        "object": "body of the cat"
+      }
+    ]
+  },
+  {
+    "text": "Most cats had short hair until about 100 years ago, when it became fashionable to own cats and experiment with breeding.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "had short hair",
+        "object": "about 100 years ago"
+      }
+    ]
+  },
+  {
+    "text": "Cats have 32 muscles that control the outer ear (humans have only 6). A cat can independently rotate its ears 180 degrees.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "have",
+        "object": "32 muscles"
+      },
+      {
+        "subject": "cat",
+        "relation": "can",
+        "object": "rotate its ears 180 degrees"
+      }
+    ]
+  },
+  {
+    "text": "One reason that kittens sleep so much is because a growth hormone is released only during sleep.",
+    "triplets": [
+      {
+        "subject": "Kittens",
+        "relation": "sleep for",
+        "object": "12 to 16 hours a day"
+      }
+    ]
+  },
+  {
+    "text": "Cats have about 130,000 hairs per square inch (20,155 hairs per square centimeter). i",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "have",
+        "object": "about 130,000 hairs per square inch"
+      },
+      {
+        "subject": "i",
+        "relation": "like",
+        "object": "cats"
+      }
+    ]
+  },
+  {
+    "text": "The heaviest cat on record is Himmy, a Tabby from Queensland, Australia. He weighed nearly 47 pounds (21 kg). He died at the age of 10.",
+    "triplets": [
+      {
+        "subject": "Himmy",
+        "relation": "heaviest cat",
+        "object": "Tabby from Queensland, Australia"
+      },
+      {
+        "subject": "He",
+        "relation": "weighed",
+        "object": "nearly 47 pounds (21 kg)"
+      },
+      {
+        "subject": "John Doe",
+        "relation": "died",
+        "object": "at the age of 10"
+      }
+    ]
+  },
+  {
+    "text": "The oldest cat on record was Crème Puff from Austin, Texas, who lived from 1967 to August 6, 2005, three days after her 38th birthday. A cat typically can live up to 20 years, which is equivalent to about 96 human years.",
+    "triplets": [
+      {
+        "subject": "Crème Puff",
+        "relation": "oldest cat on record",
+        "object": "Austin, Texas"
+      },
+      {
+        "subject": "cat",
+        "relation": "typically can live up to",
+        "object": "20 years"
+      }
+    ]
+  },
+  {
+    "text": "The lightest cat on record is a blue point Himalayan called Tinker Toy, who weighed 1 pound, 6 ounces (616 g). Tinker Toy was 2.75 inches (7 cm) tall and 7.5 inches (19 cm) long.",
+    "triplets": [
+      {
+        "subject": "Tinker Toy",
+        "relation": "lightest cat",
+        "object": "blue point Himalayan"
+      },
+      {
+        "subject": "Tinker Toy",
+        "relation": "height",
+        "object": "2.75 inches (7 cm)"
+      },
+      {
+        "subject": "Tinker Toy",
+        "relation": "length",
+        "object": "7.5 inches (19 cm)"
+      }
+    ]
+  },
+  {
+    "text": "The tiniest cat on record is Mr. Pebbles, a 2-year-old cat that weighed 3 lbs (1.3 k) and was 6.1 inches (15.5 cm) high.",
+    "triplets": [
+      {
+        "subject": "Mr.",
+        "relation": "tiniest cat on record",
+        "object": "cat"
+      },
+      {
+        "subject": "Pebbles",
+        "relation": "is a",
+        "object": "a 2-year-old cat"
+      }
+    ]
+  },
+  {
+    "text": "A commemorative tower was built in Scotland for a cat named Towser, who caught nearly 30,000 mice in her lifetime.",
+    "triplets": [
+      {
+        "subject": "Towser",
+        "relation": "caught",
+        "object": "nearly 30,000 mice"
+      }
+    ]
+  },
+  {
+    "text": "In the 1750s, Europeans introduced cats into the Americas to control pests.",
+    "triplets": [
+      {
+        "subject": "Europeans",
+        "relation": "introduced",
+        "object": "cats"
+      }
+    ]
+  },
+  {
+    "text": "The first cat show was organized in 1871 in London. Cat shows later became a worldwide craze.",
+    "triplets": [
+      {
+        "subject": "cat show",
+        "relation": "organized",
+        "object": "1871 in London"
+      },
+      {
+        "subject": "Cat",
+        "relation": "shows later became a worldwide craze",
+        "object": "a craze"
+      }
+    ]
+  },
+  {
+    "text": "The first cartoon cat was Felix the Cat in 1919. In 1940, Tom and Jerry starred in the first theatrical cartoon “Puss Gets the Boot.” In 1981 Andrew Lloyd Weber created the musical Cats , based on T.S. Eliot’s Old Possum’s Book of Practical Cats.",
+    "triplets": [
+      {
+        "subject": "Felix the Cat",
+        "relation": "was created by",
+        "object": "1919"
+      },
+      {
+        "subject": "Subject",
+        "relation": "Unknown",
+        "object": ""
+      },
+      {
+        "subject": "Eliot's Old Possum's Book of Practical Cats",
+        "relation": "published in",
+        "object": "1953"
+      }
+    ]
+  },
+  {
+    "text": "The normal body temperature of a cat is between 100.5 ° and 102.5 °F. A cat is sick if its temperature goes below 100 ° or above 103 °F.",
+    "triplets": [
+      {
+        "subject": "Normal Body Temperature",
+        "relation": "between",
+        "object": "100.5 to 102.5 °F"
+      },
+      {
+        "subject": "Cat",
+        "relation": "sick",
+        "object": "below 100 °F"
+      }
+    ]
+  },
+  {
+    "text": "A cat has 230 bones in its body. A human has 206. A cat has no collarbone, so it can fit through any opening the size of its head.",
+    "triplets": [
+      {
+        "subject": "cat",
+        "relation": "has",
+        "object": "230 bones"
+      },
+      {
+        "subject": "human",
+        "relation": "has",
+        "object": "206"
+      },
+      {
+        "subject": "cat",
+        "relation": "has no collarbone",
+        "object": "head"
+      }
+    ]
+  },
+  {
+    "text": "A cat’s nose pad is ridged with a unique pattern, just like the fingerprint of a human.",
+    "triplets": [
+      {
+        "subject": "cat's nose pad",
+        "relation": "ridged with a unique pattern",
+        "object": "fingerprint of a human"
+      }
+    ]
+  },
+  {
+    "text": "If they have ample water, cats can tolerate temperatures up to 133 °F.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "can tolerate",
+        "object": "temperatures up to 133 °F"
+      }
+    ]
+  },
+  {
+    "text": "Foods that should not be given to cats include onions, garlic, green tomatoes, raw potatoes, chocolate, grapes, and raisins. Though milk is not toxic, it can cause an upset stomach and gas. Tylenol and aspirin are extremely toxic to cats, as are many common houseplants. Feeding cats dog food or canned tuna that’s for human consumption can cause malnutrition.",
+    "triplets": [
+      {
+        "subject": "Raisins",
+        "relation": "should not be given",
+        "object": "to cats"
+      },
+      {
+        "subject": "milk",
+        "relation": "can cause",
+        "object": "an upset stomach and gas"
+      },
+      {
+        "subject": "Cats",
+        "relation": "are",
+        "object": "toxic to"
+      },
+      {
+        "subject": "Cats",
+        "relation": "malnutrition",
+        "object": "dog food or canned tuna that's for human consumption"
+      }
+    ]
+  },
+  {
+    "text": "A 2007 Gallup poll revealed that both men and women were equally likely to own a cat.",
+    "triplets": [
+      {
+        "subject": "poll",
+        "relation": "revealed",
+        "object": "both men and women"
+      }
+    ]
+  },
+  {
+    "text": "A cat’s heart beats nearly twice as fast as a human heart, at 110 to 140 beats a minute.",
+    "triplets": [
+      {
+        "subject": "cat's heart",
+        "relation": "beats nearly twice as fast",
+        "object": "human heart"
+      }
+    ]
+  },
+  {
+    "text": "Cats don’t have sweat glands over their bodies like humans do. Instead, they sweat only through their paws.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "do not have",
+        "object": "sweat glands over their bodies like humans do"
+      },
+      {
+        "subject": "Cats",
+        "relation": "sweat",
+        "object": "through their paws"
+      }
+    ]
+  },
+  {
+    "text": "In just seven years, a single pair of cats and their offspring could produce a staggering total of 420,000 kittens.",
+    "triplets": [
+      {
+        "subject": "a single pair of cats",
+        "relation": "produces",
+        "object": "420,000 kittens"
+      }
+    ]
+  },
+  {
+    "text": "Relative to its body size, the clouded leopard has the biggest canines of all animals’ canines. Its dagger-like teeth can be as long as 1.8 inches (4.5 cm).",
+    "triplets": [
+      {
+        "subject": "Clouded leopards",
+        "relation": "have the biggest canines",
+        "object": "all animals' canines"
+      },
+      {
+        "subject": "Dagger-like teeth",
+        "relation": "can be",
+        "object": "1.8 inches (4.5 cm)"
+      }
+    ]
+  },
+  {
+    "text": "Cats spend nearly 1/3 of their waking hours cleaning themselves.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "spend",
+        "object": "nearly 1/3 of their waking hours cleaning themselves"
+      }
+    ]
+  },
+  {
+    "text": "Grown cats have 30 teeth. Kittens have about 26 temporary teeth, which they lose when they are about 6 months old.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "have",
+        "object": "30 teeth"
+      },
+      {
+        "subject": "Kittens",
+        "relation": "have",
+        "object": "26 temporary teeth"
+      }
+    ]
+  },
+  {
+    "text": "A cat called Dusty has the known record for the most kittens. She had more than 420 kittens in her lifetime.",
+    "triplets": [
+      {
+        "subject": "Dusty",
+        "relation": "has the most kittens",
+        "object": "known record"
+      },
+      {
+        "subject": "Kittens",
+        "relation": "had more than",
+        "object": "420"
+      }
+    ]
+  },
+  {
+    "text": "The largest cat breed is the Ragdoll. Male Ragdolls weigh between 12 and 20 lbs. (5.4-9.0 k). Females weigh between 10 and 15 lbs. (4.5-6.8 k).",
+    "triplets": [
+      {
+        "subject": "Ragdoll",
+        "relation": "largest cat breed",
+        "object": "cat breeds"
+      },
+      {
+        "subject": "Ragdoll",
+        "relation": "weight",
+        "object": "12 to 20 lbs"
+      },
+      {
+        "subject": "5.4",
+        "relation": "minus",
+        "object": "9.0 k"
+      },
+      {
+        "subject": "Females",
+        "relation": "weigh",
+        "object": "between 10 and 15 lbs"
+      },
+      {
+        "subject": "4.5",
+        "relation": "minus",
+        "object": "6.8 k"
+      }
+    ]
+  },
+  {
+    "text": "Cats are extremely sensitive to vibrations. Cats are said to detect earthquake tremors 10 or 15 minutes before humans can.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "are extremely sensitive to",
+        "object": "vibrations"
+      },
+      {
+        "subject": "Cats",
+        "relation": "detects",
+        "object": "earthquake tremors"
+      }
+    ]
+  },
+  {
+    "text": "In contrast to dogs, cats have not undergone major changes during their domestication process.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "domestication",
+        "object": "major changes"
+      }
+    ]
+  },
+  {
+    "text": "A female cat is called a queen or a molly.",
+    "triplets": [
+      {
+        "subject": "female cat",
+        "relation": "is called a",
+        "object": "queen or molly"
+      }
+    ]
+  },
+  {
+    "text": "In the 1930s, two Russian biologists discovered that color change in Siamese kittens depend on their body temperature. Siamese cats carry albino genes that work only when the body temperature is above 98° F. If these kittens are left in a very warm room, their points won’t darken and they will stay a creamy white.",
+    "triplets": [
+      {
+        "subject": "Siamese kittens",
+        "relation": "color change",
+        "object": "body temperature"
+      },
+      {
+        "subject": "Siamese cat",
+        "relation": "carries",
+        "object": "albino genes"
+      },
+      {
+        "subject": "kittens",
+        "relation": "will stay a creamy white",
+        "object": "warm room"
+      }
+    ]
+  },
+  {
+    "text": "There are up to 60 million feral cats in the United States alone.",
+    "triplets": [
+      {
+        "subject": "United States",
+        "relation": "has",
+        "object": "up to 60 million feral cats"
+      }
+    ]
+  },
+  {
+    "text": "The oldest cat to give birth was Kitty who, at the age of 30, gave birth to two kittens. During her life, she gave birth to 218 kittens.",
+    "triplets": [
+      {
+        "subject": "Kitty",
+        "relation": "gave birth to",
+        "object": "two kittens"
+      },
+      {
+        "subject": "Kittens",
+        "relation": "born",
+        "object": "218"
+      }
+    ]
+  },
+  {
+    "text": "The most traveled cat is Hamlet, who escaped from his carrier while on a flight. He hid for seven weeks behind a pane. By the time he was discovered, he had traveled nearly 373,000 miles (600,000 km).",
+    "triplets": [
+      {
+        "subject": "Hamlet",
+        "relation": "most traveled",
+        "object": "cat"
+      },
+      {
+        "subject": "He",
+        "relation": "hid",
+        "object": "seven weeks behind a pane"
+      },
+      {
+        "subject": "He",
+        "relation": "was discovered",
+        "object": "nearly 373,000 miles (600,000 km)"
+      }
+    ]
+  },
+  {
+    "text": "The most expensive cat was an Asian Leopard cat (ALC)-Domestic Shorthair (DSH) hybrid named Zeus. Zeus, who is 90% ALC and 10% DSH, has an asking price of £100,000 ($154,000).",
+    "triplets": [
+      {
+        "subject": "Asian Leopard Cat",
+        "relation": "was the most expensive",
+        "object": "Zeus"
+      },
+      {
+        "subject": "Zeus",
+        "relation": "has a",
+        "object": "asking price of £100,000"
+      }
+    ]
+  },
+  {
+    "text": "The cat who holds the record for the longest non-fatal fall is Andy. He fell from the 16 th floor of an apartment building (about 200 ft/.06 km) and survived.",
+    "triplets": [
+      {
+        "subject": "Andy",
+        "relation": "holds the record for",
+        "object": "longest non-fatal fall"
+      },
+      {
+        "subject": "He",
+        "relation": "fell",
+        "object": "the 16th floor of an apartment building"
+      }
+    ]
+  },
+  {
+    "text": "The richest cat is Blackie who was left £15 million by his owner, Ben Rea.",
+    "triplets": [
+      {
+        "subject": "Blackie",
+        "relation": "is the richest cat",
+        "object": "£15 million"
+      }
+    ]
+  },
+  {
+    "text": "The claws on the cat’s back paws aren’t as sharp as the claws on the front paws because the claws in the back don’t retract and, consequently, become worn.",
+    "triplets": []
+  },
+  {
+    "text": "Cats have five toes on each front paw, but only four toes on each back paw.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "have",
+        "object": "five toes on each front paw"
+      }
+    ]
+  },
+  {
+    "text": "Cats are sometimes born with extra toes. This is called polydactyl. These toes will not harm the cat, but you should keep his claws trimmed just like any toe.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "born with",
+        "object": "extra toes"
+      },
+      {
+        "subject": "Polydactyly",
+        "relation": "a condition",
+        "object": "Cats sleep for 12 to 16 hours a day"
+      },
+      {
+        "subject": "Toes",
+        "relation": "will not harm",
+        "object": "the cat"
+      }
+    ]
+  },
+  {
+    "text": "Cats have true fur, in that they have both an undercoat and an outer coat.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "have true fur",
+        "object": "fur of cats is true"
+      }
+    ]
+  },
+  {
+    "text": "Newborn kittens have closed ear canals that don’t begin to open for nine days. When the eyes open, they are always blue at first. They change color over a period of months to the final eye color.",
+    "triplets": [
+      {
+        "subject": "newborn kittens",
+        "relation": "have closed ear canals",
+        "object": "9 days"
+      },
+      {
+        "subject": "Eyes",
+        "relation": "open",
+        "object": "blue"
+      },
+      {
+        "subject": "Cats",
+        "relation": "change color",
+        "object": "over a period of months"
+      },
+      {
+        "subject": "final eye color",
+        "relation": "changes to",
+        "object": "the cats"
+      }
+    ]
+  },
+  {
+    "text": "Most cats have no eyelashes.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "have",
+        "object": "no eyelashes"
+      }
+    ]
+  },
+  {
+    "text": "Cats have a full inner-eyelid, or nictitating membrane. This inner-eyelid serves to help protect the eyes from dryness and damage. When the cat is ill, the inner-eyelid will frequently close partially, making it visible to the observer.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "have a full inner-eyelid",
+        "object": "nictitating membrane"
+      },
+      {
+        "subject": "inner-eyelid",
+        "relation": "protects",
+        "object": "eyes from dryness and damage"
+      },
+      {
+        "subject": "cat",
+        "relation": "ill",
+        "object": "inner-eyelid"
+      }
+    ]
+  },
+  {
+    "text": "A cat cannot see directly under its nose. This is why the cat cannot seem to find tidbits on the floor.",
+    "triplets": [
+      {
+        "subject": "cat",
+        "relation": "cannot see directly under its nose",
+        "object": "nose"
+      },
+      {
+        "subject": "the cat",
+        "relation": "cannot seem to find",
+        "object": "tidbits on the floor"
+      }
+    ]
+  },
+  {
+    "text": "You can tell a cat’s mood by looking into its eyes. A frightened or excited cat will have large, round pupils. An angry cat will have narrow pupils. The pupil size is related as much to the cat’s emotions as to the degree of light.",
+    "triplets": [
+      {
+        "subject": "cat",
+        "relation": "mood",
+        "object": "looks into its eyes"
+      },
+      {
+        "subject": "Cat",
+        "relation": "has narrow pupils",
+        "object": "angry"
+      },
+      {
+        "subject": "pupil size",
+        "relation": "related to",
+        "object": "cat's emotions"
+      }
+    ]
+  },
+  {
+    "text": "It is a common belief that cats are color blind. However, recent studies have shown that cats can see blue, green and red.",
+    "triplets": [
+      {
+        "subject": "cats",
+        "relation": "are color blind",
+        "object": "commonly believed"
+      },
+      {
+        "subject": "cats",
+        "relation": "can see",
+        "object": "blue, green, and red"
+      }
+    ]
+  },
+  {
+    "text": "A large majority of white cats with blue eyes are deaf. White cats with only one blue eye are deaf only in the ear closest to the blue eye. White cats with orange eyes do not have this disability.",
+    "triplets": [
+      {
+        "subject": "White cats",
+        "relation": "are",
+        "object": "deaf"
+      },
+      {
+        "subject": "Blue eyes",
+        "relation": "are",
+        "object": "white cats"
+      },
+      {
+        "subject": "White cat",
+        "relation": "has only one blue eye",
+        "object": "blue eye"
+      },
+      {
+        "subject": "cat",
+        "relation": "is white",
+        "object": "cat"
+      },
+      {
+        "subject": "ear",
+        "relation": "closest to the blue eye",
+        "object": "blue eye"
+      },
+      {
+        "subject": "White cats",
+        "relation": "do not have",
+        "object": "disability"
+      }
+    ]
+  },
+  {
+    "text": "Cats with white fur and skin on their ears are very prone to sunburn. Frequent sunburns can lead to skin cancer. Many white cats need surgery to remove all or part of a cancerous ear. Preventive measures include sunscreen, or better, keeping the cat indoors.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "are prone to sunburn",
+        "object": "white fur"
+      },
+      {
+        "subject": "Sunburn",
+        "relation": "can lead to",
+        "object": "skin cancer"
+      },
+      {
+        "subject": "White cats",
+        "relation": "need surgery",
+        "object": "ear cancer removal"
+      },
+      {
+        "subject": "Preventive measures",
+        "relation": "include",
+        "object": "sunscreen"
+      },
+      {
+        "subject": "Preventive measures",
+        "relation": "include",
+        "object": "keeping the cat indoors"
+      },
+      {
+        "subject": "Preventive measures",
+        "relation": "include",
+        "object": "cat"
+      }
+    ]
+  },
+  {
+    "text": "A cat can jump even seven times as high as it is tall.",
+    "triplets": [
+      {
+        "subject": "cat",
+        "relation": "can jump",
+        "object": "seven times as high as its height"
+      }
+    ]
+  },
+  {
+    "text": "The cat’s footpads absorb the shocks of the landing when the cat jumps.",
+    "triplets": [
+      {
+        "subject": "cat's footpads",
+        "relation": "absorb",
+        "object": "shocks of the landing"
+      }
+    ]
+  },
+  {
+    "text": "Cats lack a true collarbone. Because of this lack, cats can generally squeeze their bodies through any space they can get their heads through. You may have seen a cat testing the size of an opening by careful measurement with the head.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "lack a true collarbone",
+        "object": "collarbone"
+      },
+      {
+        "subject": "Cats",
+        "relation": "can generally squeeze",
+        "object": "any space they can get their heads through"
+      },
+      {
+        "subject": "cat",
+        "relation": "testing the size of an opening",
+        "object": "head"
+      }
+    ]
+  },
+  {
+    "text": "If left to her own devices, a female cat may have three to seven kittens every four months. This is why population control using neutering and spaying is so important.",
+    "triplets": [
+      {
+        "subject": "a female cat",
+        "relation": "may have",
+        "object": "three to seven kittens every four months"
+      },
+      {
+        "subject": "population control",
+        "relation": "using",
+        "object": "neutering and spaying"
+      }
+    ]
+  },
+  {
+    "text": "A cat is pregnant for about 58-65 days.",
+    "triplets": [
+      {
+        "subject": "cat",
+        "relation": "pregnant",
+        "object": "58 to 65 days"
+      }
+    ]
+  },
+  {
+    "text": "Mother cats teach their kittens to use the litter box.",
+    "triplets": [
+      {
+        "subject": "Mother Cats",
+        "relation": "teach",
+        "object": "kittens"
+      },
+      {
+        "subject": "Kittens",
+        "relation": "use",
+        "object": "litter box"
+      }
+    ]
+  },
+  {
+    "text": "The way you treat kittens in the early stages of its life will render it’s personality traits later in life.",
+    "triplets": [
+      {
+        "subject": "Kittens",
+        "relation": "early stages of life",
+        "object": "render its personality traits"
+      }
+    ]
+  },
+  {
+    "text": "Contrary to popular belief, the cat is a social animal. A pet cat will respond and answer to speech, and seems to enjoy human companionship.",
+    "triplets": [
+      {
+        "subject": "cat",
+        "relation": "is a social animal",
+        "object": "contrary to popular belief"
+      },
+      {
+        "subject": "Pet Cat",
+        "relation": "responds to speech",
+        "object": "enjoys human companionship"
+      }
+    ]
+  },
+  {
+    "text": "When well treated, a cat can live twenty or more years but the average life span of a domestic cat is 14 years.",
+    "triplets": [
+      {
+        "subject": "a cat",
+        "relation": "can live",
+        "object": "twenty or more years"
+      }
+    ]
+  },
+  {
+    "text": "Neutering a cat extends its life span by two or three years.",
+    "triplets": [
+      {
+        "subject": "Neutering a cat",
+        "relation": "extends its life span",
+        "object": "two or three years"
+      }
+    ]
+  },
+  {
+    "text": "Cats, especially older cats, do get cancer. Many times this disease can be treated successfully.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "do",
+        "object": "get cancer"
+      },
+      {
+        "subject": "many",
+        "relation": "can",
+        "object": "disease"
+      }
+    ]
+  },
+  {
+    "text": "Cats can’t taste sweets.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "can't",
+        "object": "taste sweets"
+      }
+    ]
+  },
+  {
+    "text": "Cats must have fat in their diet because they can’t produce it on their own.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "must have fat in their diet",
+        "object": "they cannot produce it on their own."
+      }
+    ]
+  },
+  {
+    "text": "Some common houseplants poisonous to cats include: English Ivy, iris, mistletoe, philodendron, and yew.",
+    "triplets": [
+      {
+        "subject": "Yew",
+        "relation": "poisonous to",
+        "object": "cats"
+      }
+    ]
+  },
+  {
+    "text": "Tylenol and chocolate are both poisonous to cats.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "are",
+        "object": "poisonous to"
+      }
+    ]
+  },
+  {
+    "text": "Many cats cannot properly digest cow’s milk. Milk and milk products give them diarrhea.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "cannot digest",
+        "object": "cow's milk"
+      },
+      {
+        "subject": "milk",
+        "relation": "gives",
+        "object": "diarrhea"
+      }
+    ]
+  },
+  {
+    "text": "The average cat food meal is the equivalent to about five mice.",
+    "triplets": [
+      {
+        "subject": "average cat food meal",
+        "relation": "equivalent to",
+        "object": "five mice"
+      }
+    ]
+  },
+  {
+    "text": "Cats can get tapeworms from eating fleas. These worms live inside the cat forever, or until they are removed with medication. They reproduce by shedding a link from the end of their long bodies. This link crawls out the cat’s anus, and sheds hundreds of eggs. These eggs are injected by flea larvae, and the cycle continues. Humans may get these tapeworms too, but only if they eat infected fleas. Cats with tapeworms should be dewormed by a veterinarian.",
+    "triplets": [
+      {
+        "subject": "Fleas",
+        "relation": "can cause",
+        "object": "tapeworms"
+      },
+      {
+        "subject": "worms",
+        "relation": "live inside",
+        "object": "cat"
+      },
+      {
+        "subject": "Reproduction",
+        "relation": "by shedding",
+        "object": "a link from the end of their long bodies"
+      },
+      {
+        "subject": "Cat's anus",
+        "relation": "sheds",
+        "object": "hundreds of eggs"
+      },
+      {
+        "subject": "eggs",
+        "relation": "are injected by",
+        "object": "flea larvae"
+      },
+      {
+        "subject": "Fleas",
+        "relation": "infected",
+        "object": "tapeworms"
+      },
+      {
+        "subject": "Cats",
+        "relation": "with",
+        "object": "tapeworms"
+      }
+    ]
+  },
+  {
+    "text": "Cats can get tapeworms from eating mice. If your cat catches a mouse it is best to take the prize away from it.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "can get",
+        "object": "tapeworms from eating mice"
+      },
+      {
+        "subject": "cat",
+        "relation": "catches",
+        "object": "mouse"
+      }
+    ]
+  },
+  {
+    "text": "Though rare, cats can contract canine heart worms.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "contract",
+        "object": "canine heart worms"
+      }
+    ]
+  },
+  {
+    "text": "The gene in cats that causes the orange coat color are sexed linked, and is on the X sex chromosome. This gene may display orange or black. Thus, as female cat with two X chromosomes may have orange and black colors in its coat. A male, with only one X chromosome, can have only orange or black, not both.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "sexed linked",
+        "object": "X sex chromosome"
+      },
+      {
+        "subject": "Gene",
+        "relation": "may display",
+        "object": "orange or black"
+      },
+      {
+        "subject": "Female Cat",
+        "relation": "has",
+        "object": "two X chromosomes"
+      },
+      {
+        "subject": "Male",
+        "relation": "has only one X chromosome",
+        "object": "orange or black"
+      }
+    ]
+  },
+  {
+    "text": "If a male cat is both orange and black it is (besides being extremely rare ) sterile. To have both the orange and the black coat colors, the male cat must have all or part of both female X chromosomes. This unusual sex chromosome combination will render the male cat sterile.",
+    "triplets": [
+      {
+        "subject": "Male Cat",
+        "relation": "is both orange and black",
+        "object": "sterile"
+      },
+      {
+        "subject": "Male Cat",
+        "relation": "must have all or part of both",
+        "object": "orange and black coat colors"
+      },
+      {
+        "subject": "male cat",
+        "relation": "rendered sterile",
+        "object": "sex chromosome combination"
+      }
+    ]
+  },
+  {
+    "text": "Cats have AB blood groups just like people.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "have",
+        "object": "AB blood group"
+      }
+    ]
+  },
+  {
+    "text": "A form of AIDS exists in cats.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "have a form of",
+        "object": "AIDS"
+      }
+    ]
+  },
+  {
+    "text": "The color of the points in Siamese cats is heat related. Cool areas are darker.",
+    "triplets": [
+      {
+        "subject": "Siamese cat",
+        "relation": "color of points",
+        "object": "heat related"
+      },
+      {
+        "subject": "areas",
+        "relation": "are",
+        "object": "darker"
+      }
+    ]
+  },
+  {
+    "text": "Siamese kittens are born white because of the heat inside the mother’s uterus before birth. This heat keeps the kittens’ hair from darkening on the points.",
+    "triplets": [
+      {
+        "subject": "Kittens",
+        "relation": "are born white",
+        "object": "because of the heat inside the mother's uterus before birth"
+      },
+      {
+        "subject": "heat",
+        "relation": "keeps",
+        "object": "kittens' hair from"
+      }
+    ]
+  },
+  {
+    "text": "People who are allergic to cats are actually allergic to cat saliva or to cat dander. If the resident cat is bathed regularly the allergic people tolerate it better.",
+    "triplets": [
+      {
+        "subject": "people",
+        "relation": "who",
+        "object": "are allergic to cat saliva or to cat dander"
+      },
+      {
+        "subject": "Allergic people",
+        "relation": "tolerate",
+        "object": "the resident cat"
+      }
+    ]
+  },
+  {
+    "text": "Studies now show that the allergen in cats is related to their scent glands. Cats have scent glands on their faces and at the base of their tails. Entire male cats generate the most scent. If this secretion from the scent glands is the allergen, allergic people should tolerate spayed female cats the best.",
+    "triplets": [
+      {
+        "subject": "cats",
+        "relation": "have",
+        "object": "scent glands"
+      },
+      {
+        "subject": "Cats",
+        "relation": "have scent glands",
+        "object": "on their faces and at the base of their tails"
+      },
+      {
+        "subject": "Male Cats",
+        "relation": "generate the most scent",
+        "object": "scent"
+      },
+      {
+        "subject": "spayed female cat",
+        "relation": "tolerate",
+        "object": "allergic people"
+      }
+    ]
+  },
+  {
+    "text": "Cats do not think that they are little people. They think that we are big cats. This influences their behavior in many ways.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "do not think",
+        "object": "they are little people"
+      },
+      {
+        "subject": "they",
+        "relation": "think",
+        "object": "we are big cats"
+      },
+      {
+        "subject": "Influence",
+        "relation": "on",
+        "object": "behavior"
+      }
+    ]
+  },
+  {
+    "text": "Cats are subject to gum disease and to dental caries. They should have their teeth cleaned by the vet or the cat dentist once a year.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "are subject to",
+        "object": "gum disease and dental caries"
+      },
+      {
+        "subject": "Veterinary care",
+        "relation": "cleaned with",
+        "object": "the vet"
+      },
+      {
+        "subject": "Dentist",
+        "relation": "cat dentist",
+        "object": "once a year"
+      }
+    ]
+  },
+  {
+    "text": "Many people fear catching a protozoan disease, Toxoplasmosis, from cats. This disease can cause illness in the human, but more seriously, can cause birth defects in the unborn. Toxoplasmosis is a common disease, sometimes spread through the feces of cats. It is caused most often from eating raw or rare beef. Pregnant women and people with a depressed immune system should not touch the cat litter box. Other than that, there is no reason that these people have to avoid cats.",
+    "triplets": [
+      {
+        "subject": "Toxoplasmosis",
+        "relation": "causes",
+        "object": "cats"
+      },
+      {
+        "subject": "Disease",
+        "relation": "can cause illness in the human",
+        "object": "birth defects in the unborn"
+      },
+      {
+        "subject": "Toxoplasmosis",
+        "relation": "spread through",
+        "object": "feces of cats"
+      },
+      {
+        "subject": "beef",
+        "relation": "raw or rare",
+        "object": "causes it"
+      },
+      {
+        "subject": "pregnant women",
+        "relation": "should not touch",
+        "object": "cat litter box"
+      },
+      {
+        "subject": "people",
+        "relation": "have",
+        "object": "cats"
+      }
+    ]
+  },
+  {
+    "text": "The ancestor of all domestic cats is the African Wild Cat which still exists today.",
+    "triplets": [
+      {
+        "subject": "African Wild Cats",
+        "relation": "ancestor of",
+        "object": "domestic cats"
+      }
+    ]
+  },
+  {
+    "text": "In ancient Egypt, killing a cat was a crime punishable by death.",
+    "triplets": [
+      {
+        "subject": "Killing a cat in ancient Egypt",
+        "relation": "is a crime punishable by death",
+        "object": "ancient Egypt"
+      }
+    ]
+  },
+  {
+    "text": "In ancient Egypt, mummies were made of cats, and embalmed mice were placed with them in their tombs. In one ancient city, over 300,000 cat mummies were found.",
+    "triplets": [
+      {
+        "subject": "Ancient Egyptians",
+        "relation": "made of",
+        "object": "cats"
+      },
+      {
+        "subject": "Ancient city",
+        "relation": "over 300,000 cat mummies",
+        "object": "cat mummies"
+      }
+    ]
+  },
+  {
+    "text": "In the middle Ages, during the Festival of Saint John, cats were burned alive in town squares.",
+    "triplets": [
+      {
+        "subject": "Festival of Saint John",
+        "relation": "during the",
+        "object": "Middle Ages"
+      }
+    ]
+  },
+  {
+    "text": "The first cat show was in 1871 at the Crystal Palace in London.",
+    "triplets": [
+      {
+        "subject": "cat show",
+        "relation": "first",
+        "object": "1871, Crystal Palace, London"
+      }
+    ]
+  },
+  {
+    "text": "Today there are about 100 distinct breeds of the domestic cat.",
+    "triplets": [
+      {
+        "subject": "breeds of domestic cats",
+        "relation": "about",
+        "object": "100"
+      }
+    ]
+  },
+  {
+    "text": "Like birds, cats have a homing ability that uses its biological clock, the angle of the sun, and the Earth’s magnetic field. A cat taken far from its home can return to it. But if a cat’s owners move far from its home, the cat can’t find them.",
+    "triplets": [
+      {
+        "subject": "birds",
+        "relation": "have a homing ability",
+        "object": "a biological clock"
+      },
+      {
+        "subject": "cat",
+        "relation": "taken",
+        "object": "far from its home"
+      },
+      {
+        "subject": "cat's owners",
+        "relation": "move",
+        "object": "far from their home"
+      }
+    ]
+  },
+  {
+    "text": "Cats bury their feces to cover their trails from predators.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "bury",
+        "object": "their feces"
+      }
+    ]
+  },
+  {
+    "text": "Cats sleep 16 to 18 hours per day. When cats are asleep, they are still alert to incoming stimuli. If you poke the tail of a sleeping cat, it will respond accordingly.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "sleep for",
+        "object": "16 to 18 hours a day"
+      },
+      {
+        "subject": "Cats",
+        "relation": "are",
+        "object": "asleep"
+      },
+      {
+        "subject": "tail of a sleeping cat",
+        "relation": "will respond to poking",
+        "object": "it will"
+      }
+    ]
+  },
+  {
+    "text": "Besides smelling with their nose, cats can smell with an additional organ called the Jacobson’s organ, located in the upper surface of the mouth.",
+    "triplets": [
+      {
+        "subject": "Cats",
+        "relation": "smell with",
+        "object": "Jacobson's organ"
+      }
+    ]
+  },
+  {
+    "text": "The chlorine in fresh tap water irritates sensitive parts of the cat’s nose. Let tap water sit for 24 hours before giving it to a cat.",
+    "triplets": [
+      {
+        "subject": "Chlorine",
+        "relation": "irritates",
+        "object": "sensitive parts of the cat's nose"
+      },
+      {
+        "subject": "Tap water",
+        "relation": "sit for",
+        "object": "24 hours"
+      }
+    ]
+  }
+]
