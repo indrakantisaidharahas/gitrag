@@ -4,7 +4,7 @@
     "triplets": [
       {
         "subject": "Arthur",
-        "relation": "is the father of",
+        "relation": "father of",
         "object": "Ben"
       }
     ]
@@ -13,9 +13,9 @@
     "text": "Ben is the father of Carl.",
     "triplets": [
       {
-        "subject": "Carl",
+        "subject": "Ben",
         "relation": "father of",
-        "object": "Ben"
+        "object": "Carl"
       }
     ]
   },
@@ -24,7 +24,7 @@
     "triplets": [
       {
         "subject": "Carl",
-        "relation": "is the father of",
+        "relation": "father of",
         "object": "Daniel"
       }
     ]
@@ -34,7 +34,7 @@
     "triplets": [
       {
         "subject": "Arthur",
-        "relation": "is married to",
+        "relation": "married to",
         "object": "Mary"
       }
     ]
@@ -44,7 +44,7 @@
     "triplets": [
       {
         "subject": "Mary",
-        "relation": "is the mother of",
+        "relation": "mother of",
         "object": "Ben"
       }
     ]
@@ -54,7 +54,7 @@
     "triplets": [
       {
         "subject": "Ben",
-        "relation": "is married to",
+        "relation": "married to",
         "object": "Susan"
       }
     ]
@@ -63,9 +63,9 @@
     "text": "Susan is the mother of Carl.",
     "triplets": [
       {
-        "subject": "Carl",
+        "subject": "Susan",
         "relation": "mother of",
-        "object": "Susan"
+        "object": "Carl"
       }
     ]
   },
@@ -74,7 +74,7 @@
     "triplets": [
       {
         "subject": "Carl",
-        "relation": "is married to",
+        "relation": "married to",
         "object": "Emma"
       }
     ]
@@ -84,7 +84,7 @@
     "triplets": [
       {
         "subject": "Emma",
-        "relation": "is the mother of",
+        "relation": "mother of",
         "object": "Daniel"
       }
     ]
@@ -94,7 +94,7 @@
     "triplets": [
       {
         "subject": "Arthur",
-        "relation": "was born in",
+        "relation": "born in",
         "object": "London"
       }
     ]
@@ -104,7 +104,7 @@
     "triplets": [
       {
         "subject": "Ben",
-        "relation": "was born in",
+        "relation": "born in",
         "object": "Paris"
       }
     ]
@@ -113,9 +113,9 @@
     "text": "Carl was born in Berlin.",
     "triplets": [
       {
-        "subject": "Berlin",
-        "relation": "was born in",
-        "object": "Carl"
+        "subject": "Carl",
+        "relation": "born in",
+        "object": "Berlin"
       }
     ]
   },
@@ -124,7 +124,7 @@
     "triplets": [
       {
         "subject": "Daniel",
-        "relation": "was born in",
+        "relation": "born in",
         "object": "Madrid"
       }
     ]
@@ -174,7 +174,7 @@
     "triplets": [
       {
         "subject": "DataSystems",
-        "relation": "headquarters in",
+        "relation": "headquartered in",
         "object": "Paris"
       }
     ]
@@ -184,7 +184,7 @@
     "triplets": [
       {
         "subject": "CloudWorks",
-        "relation": "headquarters in Berlin",
+        "relation": "headquartered in",
         "object": "Berlin"
       }
     ]
@@ -214,7 +214,7 @@
     "triplets": [
       {
         "subject": "TechCorp",
-        "relation": "is a subsidiary of",
+        "relation": "is the parent of",
         "object": "DataSystems"
       }
     ]
@@ -223,9 +223,9 @@
     "text": "Ben manages Carl.",
     "triplets": [
       {
-        "subject": "Carl",
-        "relation": "managed by",
-        "object": "Ben"
+        "subject": "Ben",
+        "relation": "manages",
+        "object": "Carl"
       }
     ]
   },
@@ -243,9 +243,9 @@
     "text": "Arthur owns 40 percent of TechCorp.",
     "triplets": [
       {
-        "subject": "TechCorp",
+        "subject": "Arthur",
         "relation": "owns",
-        "object": "40%"
+        "object": "TechCorp (40%)"
       }
     ]
   },
@@ -253,9 +253,9 @@
     "text": "Mary owns 20 percent of TechCorp.",
     "triplets": [
       {
-        "subject": "TechCorp",
-        "relation": "owned by Mary",
-        "object": "20 percent"
+        "subject": "Mary",
+        "relation": "owns",
+        "object": "TechCorp (20%)"
       }
     ]
   }
