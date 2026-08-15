@@ -1,0 +1,262 @@
+[
+  {
+    "text": "Arthur is the father of Ben.",
+    "triplets": [
+      {
+        "subject": "Arthur",
+        "relation": "father of",
+        "object": "Ben"
+      }
+    ]
+  },
+  {
+    "text": "Ben is the father of Carl.",
+    "triplets": [
+      {
+        "subject": "Ben",
+        "relation": "father of",
+        "object": "Carl"
+      }
+    ]
+  },
+  {
+    "text": "Carl is the father of Daniel.",
+    "triplets": [
+      {
+        "subject": "Carl",
+        "relation": "father of",
+        "object": "Daniel"
+      }
+    ]
+  },
+  {
+    "text": "Arthur is married to Mary.",
+    "triplets": [
+      {
+        "subject": "Arthur",
+        "relation": "married to",
+        "object": "Mary"
+      }
+    ]
+  },
+  {
+    "text": "Mary is the mother of Ben.",
+    "triplets": [
+      {
+        "subject": "Mary",
+        "relation": "mother of",
+        "object": "Ben"
+      }
+    ]
+  },
+  {
+    "text": "Ben is married to Susan.",
+    "triplets": [
+      {
+        "subject": "Ben",
+        "relation": "married to",
+        "object": "Susan"
+      }
+    ]
+  },
+  {
+    "text": "Susan is the mother of Carl.",
+    "triplets": [
+      {
+        "subject": "Susan",
+        "relation": "mother of",
+        "object": "Carl"
+      }
+    ]
+  },
+  {
+    "text": "Carl is married to Emma.",
+    "triplets": [
+      {
+        "subject": "Carl",
+        "relation": "married to",
+        "object": "Emma"
+      }
+    ]
+  },
+  {
+    "text": "Emma is the mother of Daniel.",
+    "triplets": [
+      {
+        "subject": "Emma",
+        "relation": "mother of",
+        "object": "Daniel"
+      }
+    ]
+  },
+  {
+    "text": "Arthur was born in London.",
+    "triplets": [
+      {
+        "subject": "Arthur",
+        "relation": "born in",
+        "object": "London"
+      }
+    ]
+  },
+  {
+    "text": "Ben was born in Paris.",
+    "triplets": [
+      {
+        "subject": "Ben",
+        "relation": "born in",
+        "object": "Paris"
+      }
+    ]
+  },
+  {
+    "text": "Carl was born in Berlin.",
+    "triplets": [
+      {
+        "subject": "Carl",
+        "relation": "born in",
+        "object": "Berlin"
+      }
+    ]
+  },
+  {
+    "text": "Daniel was born in Madrid.",
+    "triplets": [
+      {
+        "subject": "Daniel",
+        "relation": "born in",
+        "object": "Madrid"
+      }
+    ]
+  },
+  {
+    "text": "Arthur works at TechCorp.",
+    "triplets": [
+      {
+        "subject": "Arthur",
+        "relation": "works at",
+        "object": "TechCorp"
+      }
+    ]
+  },
+  {
+    "text": "Ben works at DataSystems.",
+    "triplets": [
+      {
+        "subject": "Ben",
+        "relation": "works at",
+        "object": "DataSystems"
+      }
+    ]
+  },
+  {
+    "text": "Carl works at CloudWorks.",
+    "triplets": [
+      {
+        "subject": "Carl",
+        "relation": "works at",
+        "object": "CloudWorks"
+      }
+    ]
+  },
+  {
+    "text": "TechCorp is headquartered in London.",
+    "triplets": [
+      {
+        "subject": "TechCorp",
+        "relation": "headquartered in",
+        "object": "London"
+      }
+    ]
+  },
+  {
+    "text": "DataSystems is headquartered in Paris.",
+    "triplets": [
+      {
+        "subject": "DataSystems",
+        "relation": "headquartered in",
+        "object": "Paris"
+      }
+    ]
+  },
+  {
+    "text": "CloudWorks is headquartered in Berlin.",
+    "triplets": [
+      {
+        "subject": "CloudWorks",
+        "relation": "headquartered in",
+        "object": "Berlin"
+      }
+    ]
+  },
+  {
+    "text": "Arthur founded TechCorp.",
+    "triplets": [
+      {
+        "subject": "Arthur",
+        "relation": "founded",
+        "object": "TechCorp"
+      }
+    ]
+  },
+  {
+    "text": "TechCorp acquired DataSystems.",
+    "triplets": [
+      {
+        "subject": "TechCorp",
+        "relation": "acquired",
+        "object": "DataSystems"
+      }
+    ]
+  },
+  {
+    "text": "DataSystems is a subsidiary of TechCorp.",
+    "triplets": [
+      {
+        "subject": "TechCorp",
+        "relation": "is the parent of",
+        "object": "DataSystems"
+      }
+    ]
+  },
+  {
+    "text": "Ben manages Carl.",
+    "triplets": [
+      {
+        "subject": "Ben",
+        "relation": "manages",
+        "object": "Carl"
+      }
+    ]
+  },
+  {
+    "text": "Carl manages Daniel.",
+    "triplets": [
+      {
+        "subject": "Carl",
+        "relation": "manages",
+        "object": "Daniel"
+      }
+    ]
+  },
+  {
+    "text": "Arthur owns 40 percent of TechCorp.",
+    "triplets": [
+      {
+        "subject": "Arthur",
+        "relation": "owns",
+        "object": "TechCorp (40%)"
+      }
+    ]
+  },
+  {
+    "text": "Mary owns 20 percent of TechCorp.",
+    "triplets": [
+      {
+        "subject": "Mary",
+        "relation": "owns",
+        "object": "TechCorp (20%)"
+      }
+    ]
+  }
+]
