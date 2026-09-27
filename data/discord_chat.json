@@ -1,0 +1,79 @@
+[
+  {
+    "id": "msg_001",
+    "author": "Alice",
+    "timestamp": "2026-09-01T09:00:00Z",
+    "channel": "dev-general",
+    "content": "Good morning team! Let's sync on the v2.0 release planned for October 15."
+  },
+  {
+    "id": "msg_002",
+    "author": "Bob",
+    "timestamp": "2026-09-01T09:02:15Z",
+    "channel": "dev-general",
+    "content": "Hey Alice. We hit a major blocker yesterday. The PaymentService is failing during checkout with HTTP 504 Gateway Timeout."
+  },
+  {
+    "id": "msg_003",
+    "author": "Charlie",
+    "timestamp": "2026-09-01T09:05:40Z",
+    "channel": "dev-general",
+    "content": "I looked into the PaymentService logs. It turns out PaymentService depends on the AuthDB connection pool, which is getting exhausted during peak traffic."
+  },
+  {
+    "id": "msg_004",
+    "author": "Alice",
+    "timestamp": "2026-09-01T09:08:10Z",
+    "channel": "dev-general",
+    "content": "Thanks Charlie. Who is assigned to fix the AuthDB pool issue?"
+  },
+  {
+    "id": "msg_005",
+    "author": "Charlie",
+    "timestamp": "2026-09-01T09:10:00Z",
+    "channel": "dev-general",
+    "content": "I assigned Dave to fix the AuthDB pool sizing issue (Ticket #BUG-402). He's increasing max connections from 20 to 100."
+  },
+  {
+    "id": "msg_006",
+    "author": "Dave",
+    "timestamp": "2026-09-01T09:25:30Z",
+    "channel": "dev-general",
+    "content": "Update on #BUG-402: I deployed the config change to staging. AuthDB max connections is now 100, and PaymentService 504 errors are completely resolved."
+  },
+  {
+    "id": "msg_007",
+    "author": "Alice",
+    "timestamp": "2026-09-01T09:30:00Z",
+    "channel": "dev-general",
+    "content": "Awesome work Dave! Now regarding frontend: Eve, did we decide on using TailwindCSS or Vanilla CSS for the customer portal redesign?"
+  },
+  {
+    "id": "msg_008",
+    "author": "Eve",
+    "timestamp": "2026-09-01T09:33:12Z",
+    "channel": "dev-general",
+    "content": "After discussion with design, we decided on TailwindCSS v3.4 for the portal. It will speed up component building."
+  },
+  {
+    "id": "msg_009",
+    "author": "Bob",
+    "timestamp": "2026-09-01T09:40:00Z",
+    "channel": "dev-general",
+    "content": "Also a reminder for security: Frank is setting up Presidio PII redaction on all customer chat exports before we send them to external LLMs."
+  },
+  {
+    "id": "msg_010",
+    "author": "Frank",
+    "timestamp": "2026-09-01T09:45:00Z",
+    "channel": "dev-general",
+    "content": "Yes, Presidio will redact credit card numbers and SSNs. Ticket #SEC-109 is currently in review by Alice."
+  },
+  {
+    "id": "msg_011",
+    "author": "Alice",
+    "timestamp": "2026-09-01T09:50:00Z",
+    "channel": "dev-general",
+    "content": "Approved #SEC-109! Great work everyone. Target launch date is confirmed for October 15."
+  }
+]

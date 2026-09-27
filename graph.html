@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#4A90E2", "id": "PaymentService", "label": "PaymentService", "shape": "dot", "size": 25, "title": "PaymentService"}, {"color": "#4A90E2", "id": "AuthDB", "label": "AuthDB", "shape": "dot", "size": 25, "title": "AuthDB"}, {"color": "#4A90E2", "id": "Dave", "label": "Dave", "shape": "dot", "size": 25, "title": "Dave"}, {"color": "#4A90E2", "id": "Ticket #BUG-402", "label": "Ticket #BUG-402", "shape": "dot", "size": 25, "title": "Ticket #BUG-402"}, {"color": "#4A90E2", "id": "maloedefasiat", "label": "maloedefasiat", "shape": "dot", "size": 25, "title": "maloedefasiat"}, {"color": "#4A90E2", "id": "curryexpress_15338", "label": "curryexpress_15338", "shape": "dot", "size": 25, "title": "curryexpress_15338"}, {"color": "#4A90E2", "id": "yoo", "label": "yoo", "shape": "dot", "size": 25, "title": "yoo"}, {"color": "#4A90E2", "id": "maleo_de_fasiat", "label": "maleo_de_fasiat", "shape": "dot", "size": 25, "title": "maleo_de_fasiat"}, {"color": "#4A90E2", "id": "Yoo", "label": "Yoo", "shape": "dot", "size": 25, "title": "Yoo"}, {"color": "#4A90E2", "id": "curryexpress", "label": "curryexpress", "shape": "dot", "size": 25, "title": "curryexpress"}, {"color": "#4A90E2", "id": "i", "label": "i", "shape": "dot", "size": 25, "title": "i"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "PaymentService", "label": "DEPENDS_ON", "title": "DEPENDS_ON", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "DISCUSSED", "title": "DISCUSSED", "to": "PaymentService"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "DISCUSSED", "title": "DISCUSSED", "to": "PaymentService"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "DISCUSSED", "title": "DISCUSSED", "to": "PaymentService"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "BLOCKED_BY", "title": "BLOCKED_BY", "to": "PaymentService"}, {"arrows": "to", "color": "#97C2FC", "from": "Dave", "label": "BLOCKED_BY", "title": "BLOCKED_BY", "to": "PaymentService"}, {"arrows": "to", "color": "#97C2FC", "from": "maloedefasiat", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "curryexpress_15338", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "curryexpress_15338", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "curryexpress_15338", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "curryexpress_15338", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "curryexpress_15338", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "curryexpress_15338", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "curryexpress_15338", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "yoo", "label": "DISCUSSED", "title": "DISCUSSED", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "maleo_de_fasiat", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "Yoo", "label": "DISCUSSED", "title": "DISCUSSED", "to": "AuthDB"}, {"arrows": "to", "color": "#97C2FC", "from": "curryexpress", "label": "ASSIGNED_TO", "title": "ASSIGNED_TO", "to": "Ticket #BUG-402"}, {"arrows": "to", "color": "#97C2FC", "from": "i", "label": "REJECTED", "title": "REJECTED", "to": "PaymentService"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
